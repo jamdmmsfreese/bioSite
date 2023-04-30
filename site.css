@@ -13,7 +13,6 @@ h3 {
 }
 
 h4 {
-    font-weight: 700;
     text-align: center;
     color:rgb(139,0,139);
 }
@@ -22,6 +21,16 @@ h5 {
     font-weight: 700;
     text-align: center;
     color:rgb(139,0,139);
+}
+
+hr {
+    height: 2px;
+    background-color:rgb(192,0,0);
+    border: none;
+}
+
+figcaption {
+    font-weight: bold;
 }
 
 header {
@@ -41,27 +50,12 @@ header {
     padding: 10px;
 }
 
-#container-about {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 1%;
-    padding: 3px;
-}
-
 #container-hobbies {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 1%;
     padding: 3px;
 }
-
-#container-accomplishments {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 1%;
-    padding: 3px;
-}
-
 
 #navbar {
     overflow: hidden;
@@ -84,39 +78,8 @@ header {
     color:rgb(119,57,243);
 }
 
-#container-landing {
+body {
     background-color: rgb(147,173,221);
-    color:rgb(119,57,243);
-    font-style: italic;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-bottom: 95px;
-    background-image: url(Images/img-bio-landing-portrait-01.jpg);
-    background-repeat: no-repeat;
-    background-position: 50rem;
-}
-
-#container-about {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 1%;
-    padding: 3px;
-}
-
-
-#container-about img {
-    padding-right: 2%;
-}
-
-#container-about h2 {
-    color:rgb(119,57,243);
-    font-weight: 700;
-    text-align: center;
-}
-
-#container-landing h1 {
-    font-weight: 700;
-    text-align: left;
 }
 
 footer {
@@ -127,11 +90,10 @@ footer {
     float: right;
     padding-right: 10px;
     font-weight: 400;
-    background-color:lightseagreen;
 }
 
 footer a {
-    color: white;
+    color:rgb(119,57,243);
     font-weight: 400;
     float: right;
     padding-top: 10px;
